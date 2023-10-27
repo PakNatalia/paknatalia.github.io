@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Форма регистрации</title>
+  </head>
+  <body>
+    <h1>Регистрация</h1>
+    <form>
+      <label for="login"></label>
+      <input type="text" id="login" placeholder="логин" />
+    </form>
+    <br />
+    <form>
+      <label for="pin"></label>
+      <input type="text" id="pin" placeholder="пароль" />
+    </form>
+    <br />
+    <form>
+      <label for="fullname"></label>
+      <input type="text" id="fullname" placeholder="ФИО" />
+    </form>
+    <br />
+    <p>Пол:</p>
+    <form>
+      <label>
+        <input type="radio" name="question" value="male" />
+        мужской
+      </label>
+      <br />
+      <label>
+        <input type="radio" name="question" value="female" />
+        женский
+      </label>
+    </form>
+    <br />
+    <form>
+      <label for="date"></label>
+      <input type="text" id="date" placeholder="дата рождения" />
+    </form>
+    <br />
+    <form>
+      <select>
+        <option disabled>Город</option>
+        <option>Москва</option>
+        <option>Санкт-Петербург</option>
+        <option>Новосибирск</option>
+        <option>Екатеринбург</option>
+        <option>Казань</option>
+        <option>Нижний Новгород</option>
+        <option>Челябинск</option>
+        <option>Омск</option>
+      </select>
+    </form>
+    <br />
+    <form style="display: inline" action="greetings.html" method="get">
+      <button>Отправить форму</button>
+    </form>
+  </body>
+</html>

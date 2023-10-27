@@ -1,0 +1,53 @@
+body {
+  background-color: lightblue;
+}
+
+.eggwhite {
+  position: absolute;
+  height: 365px;
+  width: 251px;
+  background-color: white;
+  left: 150px;
+  top: 100px;
+  border-radius: 50% 50% 50% 50%/ 60% 60% 40% 40%;
+}
+
+.eggyellow {
+  position: absolute;
+  height: 10em;
+  width: 10em;
+  background-color: yellow;
+  left: 195px;
+  top: 270px;
+  border-radius: 50% 50% 50% 50%/ 60% 60% 40% 40%;
+}
+
+.eyeleft {
+  position: absolute;
+  height: 15px;
+  width: 15px;
+  background-color: black;
+  left: 240px;
+  top: 330px;
+  border-radius: 50% 50% 50% 50%/ 60% 60% 40% 40%;
+}
+
+.eyeright {
+  position: absolute;
+  height: 15px;
+  width: 15px;
+  background-color: black;
+  left: 290px;
+  top: 330px;
+  border-radius: 50% 50% 50% 50%/ 60% 60% 40% 40%;
+}
+
+.mouth {
+  position: absolute;
+  background-color: black;
+  width: 60px;
+  height: 10px;
+  border-radius: 7px 7px 100px 100px;
+  top: 380px;
+  left: 244px;
+}
